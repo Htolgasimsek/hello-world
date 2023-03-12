@@ -8,6 +8,7 @@ class StudentController extends Controller
 {
     public function getStudents()
     {
+        //comment
         $students = Student::all();
         return view("students", ["students" => $students]);
     }
